@@ -1,4 +1,4 @@
-# -A-New-Architecture-for-the-Viterbi-Algorithm--implementation
+# -A-New-Architecture-for-the-Fast-Viterbi-Algorithm--implementation
 
 The purpose of this project was the hardware implementation of the algorithm described in the paper:
 Inkyu Lee, Jeff L. Sonntag, "A New Architecture for the Fast Viterbi Algorithm", IEEE Transactions on Communications, vol. 51, No. 10, October 2003.

@@ -1,1 +1,6 @@
 # -A-New-Architecture-for-the-Viterbi-Algorithm--implementation
+
+The purpose of this project was the hardware implementation of the algorithm described in the paper:
+Inkyu Lee, Jeff L. Sonntag, "A New Architecture for the Fast Viterbi Algorithm", IEEE Transactions on Communications, vol. 51, No. 10, October 2003.
+In this paper a modification of the traditional Viterbi algorithm, which is used in a wide variety of applications, is proposed in order to increase the speed of the algorithm.
+The algorithm was implemented and verified in Matlab R2017a initially. Then it was implemented in C language and Vivado HLS software was used to convert the C code to efficient VHDL code for FPGA implementation. The VHDL code was synthesized and verified in Vivado HLS 2017.4 software with Zynq ZC706 Evaluation Board as target board. For the verification process, co-simulation of C code and VHDL code was used. For better performance of the implemented system, pipelining, loop unrolling and algorithmic techniques were used to achieve lower latency and better timing for the circuit. Also, memory requirements were reduced to the minimum needed by using suitable datatypes for the variables in order to reduce latency and achieve smaller area on the board. For better performace of the hardware implementation, iterative decomposition rule was used. 
